@@ -22,6 +22,9 @@ Weekends are disabled for booking
 
 git clone https://github.com/vzhnudz123/Appointment-calendar.git
 
+gh repo clone vzhnudz123/Appointment-calendar
+
+
 3.cd Appointment-calendar
 
 4.Install dependencies
