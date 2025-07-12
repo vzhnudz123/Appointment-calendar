@@ -20,7 +20,7 @@ Weekends are disabled for booking
  1.Open terminal or command prompt
  2.run command
 
-git clone https://github.com/vzhnudz123/Appointment-calendar-front-end.git
+git clone https://github.com/vzhnudz123/Appointment-calendar.git
 
 3.cd Appointment-calendar
 
