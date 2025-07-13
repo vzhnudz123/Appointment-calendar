@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const validEmail = 'staff@clinic.com';
-  const validPassword = '123456'; // use string for comparison
+  const validPassword = '123456'; 
 
   const navigate = useNavigate();
 

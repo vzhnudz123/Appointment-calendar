@@ -100,7 +100,7 @@ const Appointment = () => {
 
   return (
     <div className={`${darkMode ? 'dark bg-gray-900 text-white' : 'bg-gray-100'} min-h-screen`}>
-      {/* Header */}
+      
       <header className="flex justify-between items-center px-6 py-4 bg-white dark:bg-gray-800 shadow-md">
         <h1 className="text-xl font-bold text-sky-700 dark:text-emerald-400">Clinic Appointment Calendar</h1>
         <button
@@ -111,7 +111,7 @@ const Appointment = () => {
         </button>
       </header>
 
-      {/* Calendar */}
+    
       <main className="p-4">
         <div className="rounded-lg overflow-hidden shadow ring-1 ring-gray-200 dark:ring-gray-700">
           <Calendar
@@ -134,7 +134,7 @@ const Appointment = () => {
         </div>
       </main>
 
-      {/* Modal */}
+    
       {formOpen && (
         <div className="fixed inset-0 z-50 flex justify-center items-center bg-black/50 backdrop-blur-sm">
           <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg w-full max-w-md">
@@ -149,7 +149,7 @@ const Appointment = () => {
             </div>
 
             <form onSubmit={handleEventSubmit} className="space-y-4">
-              {/* Patient */}
+            
               <div>
                 <label className="block text-sm font-medium">Patient</label>
                 <select
@@ -165,7 +165,7 @@ const Appointment = () => {
                 </select>
               </div>
 
-              {/* Doctor */}
+            
               <div>
                 <label className="block text-sm font-medium">Doctor</label>
                 <select
@@ -181,7 +181,7 @@ const Appointment = () => {
                 </select>
               </div>
 
-              {/* Time */}
+           
               <div>
                 <label className="block text-sm font-medium">Time</label>
                 <input
@@ -193,7 +193,7 @@ const Appointment = () => {
                 />
               </div>
 
-              {/* Buttons */}
+           
               {!edit ? (
                 <button
                   type="submit"
